@@ -1,4 +1,4 @@
-/*通用属性*/
+	/*通用属性*/
 body{
 	font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
 	color:#666;
@@ -48,21 +48,21 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,li{
 }
 li.vip a{
 	padding-left: 29px;
-	background:url(../Image/vip.jpg) no-repeat left center;
+	background:url(../Images/vip.jpg) no-repeat left center;
 }
 li.app_jd a{
 	padding-left: 29px;
 	display: inline-block;
 	height: 22px;
 	line-height: 22px;
-	background:url(../Image/iconlist_2.png) no-repeat -128px -360px;
+	background:url(../Images/iconlist_2.png) no-repeat -128px -360px;
 }
 li.app_jd a:hover{
 	background-position: -128px -399px;
 }
 li.service>a{
 	padding:0 15px;
-	background:url(../Image/jt_down.jpg) no-repeat 95% center;
+	background:url(../Images/jt_down.jpg) no-repeat 95% center;
 	display: inline-block;
 	height: 26px;	
 	line-height: 26px;
@@ -127,7 +127,7 @@ li.service:hover #service_items{
 #my_jd{
 	float: left;
 	border:1px solid #efefef;
-	background:#f7f7f7 url(../Image/iconlist_2.png) no-repeat -116px -25px;
+	background:#f7f7f7 url(../Images/iconlist_2.png) no-repeat -116px -25px;
 	padding-left: 30px;
 	height: 28px;
 	line-height: 28px;
@@ -171,7 +171,7 @@ li.service:hover #service_items{
 	float: right;
 	width: 20px;
 	height: 20px;
-	background:url(../Image/iconlist_2.png) no-repeat -65px 0;
+	background:url(../Images/iconlist_2.png) no-repeat -65px 0;
 	margin-top: 10px;
 	margin-right: 10px;
 }
@@ -372,7 +372,7 @@ img{
 	display: block;
 	width: 40px;
 	height: 30px;
-	background-image: url(../Image/index/virtuals-20140606.png);
+	background-image: url(../Images/index/virtuals-20140606.png);
 	margin:10px auto;
 	background-repeat: no-repeat;
 }
@@ -414,7 +414,7 @@ img{
 	margin-right:0;
 }
 li.pinpaijie{
-	background:url(../Image/index/show_01.jpg) no-repeat;
+	background:url(../Images/index/show_01.jpg) no-repeat;
 }
 /*遮罩层*/
 #show_box>ul>li>b{
@@ -462,7 +462,7 @@ li.pinpaijie{
 	color:#fff;
 }
 li.tuangou{
-	background-image: url(../Image/index/show_04.png)
+	background-image: url(../Images/index/show_04.png)
 }
 #show_box>ul>li>div>div{
 	margin-top: 20px;
@@ -491,7 +491,7 @@ div.floor>header span{
 	width:26px;
 	height: 33px;
 	border-bottom: 2px solid #aaa;
-	background:url(../Image/index/index_iconlist_01.png) no-repeat;
+	background:url(../Images/index/index_iconlist_01.png) no-repeat;
 	padding: 3px 0 2px 0;
 	text-align: center;
 	font-size: 18px;
@@ -528,7 +528,7 @@ div.floor ul.tab li a {
 }
 div.floor>header ul.tab a:hover{
 	border-color: #E4393C;
-	background:url(../Image/index/tab_arraw.png) no-repeat center bottom;
+	background:url(../Images/index/tab_arraw.png) no-repeat center bottom;
 }
 div.floor>header ul.links li{
 	float: left;
@@ -637,7 +637,7 @@ div.share li>p i{
 	position:absolute;
 	width:17px;
 	height:19px;
-	background:url(../Image/iconlist_3.png) no-repeat -200px -50px;
+	background:url(../Images/iconlist_3.png) no-repeat -200px -50px;
 	top:-5px;
 	right:-10px;
 }
@@ -658,7 +658,7 @@ div.share li h4{
 	max-height:32px;
 	min-height:24px;
 	padding-right:64px;
-	background:url(../Image/iconlist_3.png) no-repeat 300px -80px;
+	background:url(../Images/iconlist_3.png) no-repeat 300px -80px;
 	overflow:hidden;
 }
 div.share li h4 a{
@@ -707,7 +707,7 @@ div.order input{
 	border-bottom-color:#eaeaea;
 	border-right-color:#eaeaea;
 	padding-left:28px;
-	background:url(../Image/index/email.gif) no-repeat 5px center;
+	background:url(../Images/index/email.gif) no-repeat 5px center;
 }
 div.order button{
 	width: 65px;
@@ -733,7 +733,7 @@ div.order button{
     height:40px;  
     float:left;
     margin:5px 5px 0px 55px;
-    background-image:url(../Image/iconlist_2.png);
+    background-image:url(../Images/iconlist_2.png);
     background-repeat:no-repeat;
 }
 #foot_box ul {
