@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+	<!-- 页面顶部 -->
+	<header id="top">
+		<div id="top_box">
+			<img src="Images/star.jpg" alt="">
+			<a href="#">收藏京东</a>
+			<div class="rt">
+				<ul>
+					<li>你好，欢迎来到这里
+						<a href="#">[登陆]</a>
+						<a href="#">[注册]</a>
+					</li>
+					<li>
+						<b></b>
+						<a href="#">我的订单</a>
+					</li>
+					<li class="vip">
+						<b></b>
+						<a href="#">会员俱乐部</a>
+					</li>
+					<li class="kehu">
+						<b></b>
+						<a href="#">企业频道</a>
+					</li>
+					<li class="app_jd">
+						<b></b>
+						<a href="#">手机京东</a>
+					</li>
+					<li class="service">
+						<b></b>
+						<a href="#">客户服务</a>
+						<ul id="service_items">
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">帮助中心</a></li>
+						</ul>
+					</li>
+					<li>
+						<b></b>
+						<a href="#">网站导航</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<!-- logo和search -->
+   <div id="top_main">
+        <a href="#" class="lf"><img src="images/logo-201305.png" alt="LOGO" /></a>
+        <div id="search_box" class="lf">
+            <div class="search">
+                <input id="txtSearch" type="text" class="text" />
+                <input class="button" name="" type="button" value="搜索" />
+            </div>
+            <div class="hot_words">
+                <span>热门搜索：</span> <a href="#">家纺11月大促</a> <a href="#">彩虹电热毯</a> <a href="#">博洋家纺</a>
+                <a href="#">霞珍</a> <a href="#">床垫床褥</a> <a href="#">九洲鹿被子</a> <a href="#">南极人家纺</a>
+            </div>
+        </div>
+        <div id="my_jd" class="lf">我的京东<b></b></div>
+        <div id="settle_up" class="lf">去购物车结算<b></b></div>
+    </div>
+
+	<!-- 主导航 -->
+	<nav id="nav">
+		<div id="category">
+			<a href="#">全部商品</a>
+			<b></b>
+		</div>
+		<ul id="nav_items">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">首页</a></li>
+		</ul>
+	</nav>
+
+	<!-- banner -->
+	<article id="banner"></article>
+
+	<!-- 主题内容 -->
+	<section id="main" class="clear">
+		<div id="bread-crumb">
+			<a href="#">
+				<b>家居家装</b>
+			</a>
+			<a href="#">清洁用品</a>
+			<span>&gt;</span>
+			<a href="#">衣服清洁</a>
+			<span>&gt;</span>
+			<a href="#">维新</a>
+			<span>&gt;</span>
+			<a href="#">维新洗衣液</a>
+		</div>
+		<!-- 产品简介 -->
+		<div id="product_intro">
+			<div id="preview" class="lf">
+				<p>
+					<img src="Images/images/left_pic.jpg" alt="">
+				</p>
+				<div>
+					<a href="#" class="left_disabled"></a>
+					<ul>
+						<li>
+							<img src="Images/images/product_s1.jpg" alt="">
+						</li><li>
+							<img src="Images/images/product_s2.jpg" alt="">
+						</li><li>
+							<img src="Images/images/product_s3.jpg" alt="">
+						</li><li>
+							<img src="Images/images/product_s4.jpg" alt="">
+						</li><li>
+							<img src="Images/images/product_s5.jpg" alt="">
+						</li>
+					</ul>
+					<a href="#" class="right"></a>
+				</div>
+			</div>
+			<!-- 右边文字信息 -->
+			<div id="detail">
+				<h1>
+					维新 薰衣草洗衣液4.23KG
+					<p>
+						与威露士一起巩固健康生活
+					</p>
+				</h1>
+				<!-- 具体内容 -->
+				<ul id="summary">
+					<li id="summary_price">
+						<p>
+							京&nbsp;东&nbsp;价：
+						</p>
+						<div>
+							<b>$10</b>
+							<a href="#">(降价通知)</a>
+						</div>
+					</li>
+					<!-- 编号 -->
+					<li id="summary_amout">
+						<p>商品编号：</p>
+						<div>9998809</div>
+					</li>
+					<!-- 评分 -->
+					<li id="summary_grade">
+						<p>商品评分：</p>
+						<div>
+							<span class="star2"></span>
+							<a href="#">(已有<b>8989</b>人评价)</a>
+						</div>
+					</li>
+					<!-- 配送 -->
+					<li id="summary_store">
+						<p>配送到：</p>
+						<div>
+							<div id="store_select">
+								<h3>
+									深圳宝安区
+									<b></b>
+								</h3>
+								<!-- 弹出列表 -->
+								<div id="address">
+									<ul class="tabs">
+										<li class="current">
+											<a href="#">深圳</a>
+										</li>
+										<li>
+											<a href="#">宝安区</a>
+										</li>
+										<li>
+											<a href="#">白石洲</a>
+										</li>
+									</ul>
+									<!-- 地址 -->
+									<ul class="content">
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+										<li><a href="#">深圳</a></li>
+									</ul>
+								</div>
+							</div>
+							<b>有货</b>，23:00前完成下单，预计
+							<b>明日(1月02日)</b>送达
+						</div>
+					</li>
+					<!-- 服务 -->
+					<li id="summary_service">
+						<p>服&nbsp;&nbsp;务：</p>
+						<div>
+							由<span>冬冬</span>发货并提供售后服务
+						</div>
+					</li>
+				</ul>
+				<!-- 数量和颜色选择 -->
+				<ul id="choose">
+					<li id="choose_color">
+					<p>选择颜色：</p>
+					<div>
+						<a href="#" class="selected">
+							<img src="Images/products/p_icon_01.jpg" alt="">
+							薰衣草
+							<b></b>
+						</a>
+						<a href="#">
+							<img src="Images/products/p_icon_02.jpg" alt="">
+						索非亚玫瑰
+						<b></b>
+						</a>
+					  </div>
+					</li>
+					<!-- 购买数量 -->
+					<li id="choose_count">
+						<p>购买数量：</p>
+						<div>
+							<a href="#" class="lf_btn"></a>
+							<input type="text" value="1">
+							<a href="#" class="rt_btn"></a>
+						</div>	
+					</li>
+					<!-- 加入购物车 -->
+					<li id="choose_btns">
+						<a href="#" class="btnAddCart">加入购物车</a>
+						<a href="#" class="btnAddMark">关注</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 左侧浮动拦 -->
+		<div id="lf_product">
+			<div id="related_sorts">
+				<p>相关分类</p>
+				<ul>
+					<li>
+						<a href="#">这是啥？</a>
+					</li><li>
+						<a href="#">这是啥？</a>
+					</li><li>
+						<a href="#">这是啥？</a>
+					</li><li>
+						<a href="#">这是啥？</a>
+					</li><li>
+						<a href="#">这是啥？</a>
+					</li><li>
+						<a href="#">这是啥？</a>
+					</li><li>
+						<a href="#">这是啥？</a>
+					</li><li>
+						<a href="#">这是啥？</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- 浏览后 -->
+			<div id="view_buy">
+				<p>浏览了该赏评的用户购买了</p>
+				<div>
+					<dl>
+						<dt>
+							<a href="#">
+								<img src="Images/products/p001.jpg" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="#">
+								维新 辅以洗衣液 2KG 瓶装
+							</a>
+						</dd>
+						<dd>
+							&yen;33.8
+						</dd>	
+					</dl><dl>
+						<dt>
+							<a href="#">
+								<img src="Images/products/p002.jpg" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="#">
+								维新 辅以洗衣液 2KG 瓶装
+							</a>
+						</dd>
+						<dd>
+							&yen;33.8
+						</dd>	
+					</dl><dl>
+						<dt>
+							<a href="#">
+								<img src="Images/products/p003.jpg" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="#">
+								维新 辅以洗衣液 2KG 瓶装
+							</a>
+						</dd>
+						<dd>
+							&yen;33.8
+						</dd>	
+					</dl><dl>
+						<dt>
+							<a href="#">
+								<img src="Images/products/p004.jpg" alt="">
+							</a>
+						</dt>
+						<dd>
+							<a href="#">
+								维新 辅以洗衣液 2KG 瓶装
+							</a>
+						</dd>
+						<dd>
+							&yen;33.8
+						</dd>	
+					</dl>
+				</div>
+			</div>
+			<!-- 左侧广告 -->
+			<ul id="show_list">
+				<li><a href="#"><img src="Images/products/left_p001.jpg" alt=""></a></li>
+				<li><a href="#"><img src="Images/products/left_p002.jpg" alt=""></a></li>
+				<li><a href="#"><img src="Images/products/left_p003.jpg" alt=""></a></li>
+			</ul>
+		</div>
+
+		<!-- 右侧产品描述 -->
+		<div id="right_product">
+			<!-- 优惠 -->
+			<div id="fav_suit">
+				<p class="mt">优惠套装</p>
+				<div class="m_content">
+					<div class="master">
+						<span class="add"></span>
+						<a href="#">
+							<img src="Images/products/product_01_m.jpg" alt="">
+						</a>
+						<p>
+							<a href="#">维新 薰衣草洗衣液3.3KG</a>
+						</p>
+					</div>
+					<ul>
+						<li>
+							<span class="add"></span>
+							<a href="#">
+								<img src="Images/products/product_02_m.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">维新 薰衣草洗衣液3.3KG</a>
+							</p>
+						</li><li>
+							<span class="add"></span>
+							<a href="#">
+								<img src="Images/products/product_03_m.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">维新 薰衣草洗衣液3.3KG</a>
+							</p>
+						</li><li>
+							<span class="add"></span>
+							<a href="#">
+								<img src="Images/products/product_04_m.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">维新 薰衣草洗衣液3.3KG</a>
+							</p>
+						</li>
+					</ul>
+					<!-- 价格信息 -->
+					<div id="infos">
+						<span></span>
+						<div>
+							<h3>套装组合</h3>
+							<div>
+								套装价：
+								<b class="suit_price">111.2</b>
+							</div>
+							<div>
+								京东价：
+								<b class="jd_price">131.1</b>
+							</div>
+							<div>
+								立即节省：
+								<b>13.9</b>
+							</div>
+							<a href="#" class="btn">套装购买</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 商品阐述 -->
+			<div id="product_details">
+				<ul class="mt">
+					<li class="current">
+						<a href="#">商品介绍</a>
+					</li>
+					<li>
+						<a href="#">规格参数</a>
+					</li><li>
+						<a href="#">包装清单</a>
+					</li><li>
+						<a href="#">商品评价</a>
+					</li><li>
+						<a href="#">商品介绍</a>
+					</li>
+				</ul>
+				<div id="product_info">
+					<ul class="m_content">
+						<li>
+							商品名称：维新洗衣液
+						</li><li>
+							商品名称：维新洗衣液
+						</li><li>
+							商品名称：维新洗衣液
+						</li><li>
+							商品名称：维新洗衣液
+						</li><li>
+							商品名称：维新洗衣液
+						</li><li>
+							商品名称：维新洗衣液
+						</li><li>
+							商品名称：维新洗衣液
+						</li><li>
+							商品名称：维新洗衣液
+						</li>
+					</ul>
+					<div class="detail_content">
+						<p>
+							<img src="Images/products/product_02.jpg " alt="">
+						</p>
+						<div>
+							<span>产品特色</span>
+							so good
+						</div>
+						<p>
+							<img src="Images/products/product_03.jpg" alt="">
+						</p><p>
+							<img src="Images/products/product_04.jpg" alt="">
+						</p>
+						<div>
+							<span>使用范围</span>
+							正常使用
+						</div>
+						<p>
+							<img src="Images/products/product_05.jpg" alt="">
+						</p>
+					</div>
+				</div>
+				<!-- 参数具体内容 -->
+				<table id="tbl">
+					<tr>
+						<th colspan="2">主题</th>
+					</tr>
+					<tr>
+						<td>品牌</td>
+						<td>威露士</td>
+					</tr><tr>
+						<td>品牌</td>
+						<td>威露士</td>
+					</tr><tr>
+						<td>品牌</td>
+						<td>威露士</td>
+					</tr><tr>
+						<td>品牌</td>
+						<td>威露士</td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- 商品评价 -->
+			<div id="comment">
+				<p class="mt">商品评价</p>
+				<div class="m_content">
+					<div class="rate">
+						<b>97</b>
+						<span>%</span>
+						<p>好评度</p>
+					</div>
+					<div class="percent">
+						<dl>
+							<dt>好评(99%)</dt>
+							<dd>
+								<p style="width:9px"></p>
+							</dd>
+						</dl><dl>
+							<dt>好评(99%)</dt>
+							<dd>
+								<p style="width:97px"></p>
+							</dd>
+						</dl><dl>
+							<dt>好评(99%)</dt>
+							<dd>
+								<p style="width:47px"></p>
+							</dd>
+						</dl>
+					</div>
+					<div class="buyers">
+						<p>买家影像：</p>
+						<ul>
+							<li>
+								比我家便宜（11110）
+							</li><li>
+								比我家便宜（11110）
+							</li><li>
+								比我家便宜（11110）
+							</li><li>
+								比我家便宜（11110）
+							</li><li>
+								比我家便宜（11110）
+							</li>
+						</ul>
+					</div>
+					<div class="jingdou">
+						你可对已购买的商品评价
+						<a href="#">评价拿斗豆</a>
+					</div>
+				</div>
+			</div>
+			<!-- 全部评价 -->
+			<div id="comment_list">
+				<ul class="mt">
+					<li class="current">
+						<a href="#">全部评价</a>
+					</li><li>
+						<a href="#">好评</a>
+					</li><li>
+						<a href="#">中评</a>
+					</li><li>
+						<a href="#">差评</a>
+					</li>
+					<li>
+						<a href="#">有晒单评价</a>
+					</li>
+				</ul>
+				<!-- 评论内容 -->
+				<div id="comment_content">
+					<!-- 评论内容1 -->
+					<div id="comment_iten">
+						<div class="comment_item">
+							<ul>
+								<li>
+									<img src="Images/user_01.jpg" alt="">
+								</li>
+								<li>weiwei110</li>
+								<li>
+									<b>金牌会员</b>
+									广东
+								</li>
+							</ul>
+							<div class="comment_detail">
+								<div class="corner">
+									<div class="topic">
+										<span class="rt">
+											2015-11-12
+										</span>
+										<p class="star2"></p>
+									</div>
+									<ul>
+										<li>
+											<p>标签：</p>
+											<div>
+												<span>去污能力好</span>
+												<span>比洗衣粉贵</span>
+											</div>
+										</li>
+										<li>
+											<p>心得：</p>
+											<div>价格便宜</div>
+										</li>
+										<li>
+											<p>用户晒单：</p>
+											<div>
+												<a href="#">
+													<img src="Images/products/show_01.jpg" alt="">
+												</a><a href="#">
+													<img src="Images/products/show_02.jpg" alt="">
+												</a><a href="#">
+													<img src="Images/products/show_03.jpg" alt="">
+												</a>
+												共3张图片
+												<a href="#">查看晒单&gt;</a>
+											</div>
+										</li>
+										<li>
+											<p>购买日期：</p>
+											<div>2014-1-1</div>
+										</li>
+									</ul>
+									<!-- 按钮 -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 评论内容2 -->
+					<div id="comment_iten">
+						<div class="comment_item">
+							<ul>
+								<li>
+									<img src="Images/user_01.jpg" alt="">
+								</li>
+								<li>weiwei110</li>
+								<li>
+									<b>金牌会员</b>
+									广东
+								</li>
+							</ul>
+							<div class="comment_detail">
+								<div class="corner">
+									<div class="topic">
+										<span class="rt">
+											2015-11-12
+										</span>
+										<p class="star2"></p>
+									</div>
+									<ul>
+										<li>
+											<p>标签：</p>
+											<div>
+												<span>去污能力好</span>
+												<span>比洗衣粉贵</span>
+											</div>
+										</li>
+										<li>
+											<p>心得：</p>
+											<div>价格便宜</div>
+										</li>
+										<li>
+											<p>用户晒单：</p>
+											<div>
+												<a href="#">
+													<img src="Images/products/show_01.jpg" alt="">
+												</a><a href="#">
+													<img src="Images/products/show_02.jpg" alt="">
+												</a><a href="#">
+													<img src="Images/products/show_03.jpg" alt="">
+												</a>
+												共3张图片
+												<a href="#">查看晒单&gt;</a>
+											</div>
+										</li>
+										<li>
+											<p>购买日期：</p>
+											<div>2014-1-1</div>
+										</li>
+									</ul>
+									<!-- 按钮 -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 页数 -->
+				<div id="pages">
+					<p class="rt">
+						<a class="current">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">...</a>
+						<a href="#">12312</a>
+						<a href="#">下一页</a>
+					</p>
+					<a href="#">[查看全部评价]</a>
+				</div>
+			</div>
+			<!-- 购买咨询 -->
+			<div id="consult">
+				<ul class="mt">
+					<li class="current">
+						<a href="#">全部购买咨询</a>
+					</li><li class="#">
+						<a href="#">商品资讯</a>
+					</li><li class="#">
+						<a href="#">支付</a>
+					</li><li class="#">
+						<a href="#">库存配送</a>
+					</li><li class="#">
+						<a href="#">支付帮助</a>
+					</li><li class="#">
+						<a href="#">配送帮助</a>
+					</li><li class="#">
+						<a href="#">常见问题</a>
+					</li>
+					<li>
+						<input type="text" value="输入关键字">
+						<button>搜索</button>
+					</li>
+					<li>
+						<a href="#" class="send">发表咨询</a>
+					</li>
+				</ul>
+				<p class="m_content">
+					<b>温馨提示：</b>
+					因厂家更改产品包装、产地或者更换随机附件等没有任何提前通知，且每位咨询者购买情况、提问时间等不同，为此以下回复仅对提问者3天内有效，其他网友仅供参考！
+					若由此给您带来不便请多多谅解，谢谢！
+				</p>
+				<div class="discuss_top">
+					<span>
+						共搜索到<b>14</b>条相关咨询
+					</span>
+					<a href="#">返回</a>
+					<p>声明：一下回复仅对提问者3天有效，其他网友仅供参考</p>
+				</div>
+				<div class="discuss">
+					<ul>
+						<li>
+							<p>网友：132123123_片</p>
+							<div>
+								2014-12-12&nbsp;12:12:12
+							</div>
+						</li>
+						<li>
+							<span>咨询内容：这个怎么卖？</span>
+						</li>
+						<li>
+							<p>京东回复：你好！请您于京东客服联系，感谢你对京东的支持，祝你购物愉快！</p>
+							<div>
+								2015-12-12&nbsp;12:12:12
+							</div>
+						</li>
+					</ul><ul>
+						<li>
+							<p>网友：132123123_片</p>
+							<div>
+								2014-12-12&nbsp;12:12:12
+							</div>
+						</li>
+						<li>
+							<span>咨询内容：这个怎么卖？</span>
+						</li>
+						<li>
+							<p>京东回复：你好！请您于京东客服联系，感谢你对京东的支持，祝你购物愉快！</p>
+							<div>
+								2015-12-12&nbsp;12:12:12
+							</div>
+						</li>
+					</ul><ul>
+						<li>
+							<p>网友：132123123_片</p>
+							<div>
+								2014-12-12&nbsp;12:12:12
+							</div>
+						</li>
+						<li>
+							<span>咨询内容：这个怎么卖？</span>
+						</li>
+						<li>
+							<p>京东回复：你好！请您于京东客服联系，感谢你对京东的支持，祝你购物愉快！</p>
+							<div>
+								2015-12-12&nbsp;12:12:12
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="more_info">
+					<li>
+						<span>
+							购买之前，如有问题，请咨询
+							<button>留言咨询</button>
+							，或<a href="#">[发表咨询]</a>
+						</span>
+						<div>
+							<p>共101条</p>
+							<a href="#">浏览所有咨询信息&gt;&gt;</a>
+						</div>
+					</li>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 购物指南，配送方式 -->
+	<footer id="foot_box" class="clear">
+        <p class="shopping_guide"></p>
+        <ul>
+            <li><b>购物指南</b></li>
+            <li><a href="#">购物流程</a></li>
+            <li><a href="#">会员介绍</a></li>
+            <li><a href="#">团购/机票</a></li>
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#">大家电</a></li>
+            <li><a href="#">联系客服</a></li>
+        </ul>
+        <p class="send_type"></p>
+        <ul>
+            <li><b>配送方式</b></li>
+            <li><a href="#">上门自提</a></li>
+            <li><a href="#">211限时达</a></li>
+            <li><a href="#">配送服务查询</a></li>
+            <li><a href="#">配送费收取标准</a></li>
+            <li><a href="#">海外配送</a></li>
+        </ul>
+        <p class="pay_type"></p>
+        <ul>
+            <li><b>支付方式</b></li>
+            <li><a href="#">货到付款</a></li>
+            <li><a href="#">在线支付</a></li>
+            <li><a href="#">分期付款</a></li>
+            <li><a href="#">邮局汇款</a></li>
+            <li><a href="#">公司转账</a></li>
+        </ul>
+        <p class="sale_service"></p>
+        <ul>
+            <li><b>售后服务</b></li>
+            <li><a href="#">售后政策</a></li>
+            <li> <a href="#">价格保护</a></li>
+            <li><a href="#">退款说明</a></li>
+            <li><a href="#">返修/退换货</a></li>
+            <li><a href="#">取消订单</a></li>
+        </ul>
+        <p class="special_service"></p>
+        <ul>
+            <li><b>特色服务</b></li>
+            <li><a href="#">夺宝岛</a></li>
+            <li><a href="#">DIY装机</a></li>
+            <li><a href="#">延保服务</a></li>
+            <li><a href="#">京东E卡</a></li>
+            <li> <a href="#">节能补贴</a></li>
+            <li> <a href="#">京东通信</a></li>
+        </ul>
+	</footer>
+    <!--页面底部! -->
+    <footer id="footer">
+        <div class="links"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">人才招聘</a>|<a href="#">商家入驻</a>|<a href="#">广告服务</a>|<a href="#">手机京东</a>|<a href="#">友情链接</a>|<a href="#">销售联盟</a>|<a href="#">京东社区</a>|<a href="#">京东公益</a></div>
+	    <div class="copyright">北京市公安局朝阳分局备案编号110105014669  |  京ICP证070359号  |  互联网药品信息服务资格证编号(京)-非经营性-2011-0034<br />
+		    <a href="#">音像制品经营许可证苏宿批005号 </a> |  出版物经营许可证编号新出发(苏)批字第N-012号  |  互联网出版许可证编号新出网证(京)字150号<br />
+		    <a href="#">网络文化经营许可证京网文[2011]0168-061号 </a> Copyright © 2004-2014 京东JD.com 版权所有 <br />
+            京东旗下网站：
+            <a href="#">English Site</a> <a href="#">拍拍网</a> <a href="#">网银在线</a>
+        </div>
+	    <div class="authentication">
+            <a href=""><img src="images/jy.jpg" width="108" height="40" /></a>
+            <a href=""><img src="images/kx.jpg" width="108" height="40" /></a>
+            <a href=""><img src="images/cy.jpg" width="108" height="40" /></a>
+            <a href=""><img src="images/cx.jpg" width="112" height="40" /></a>
+        </div>
+    </footer>
+</body>
+</html>
